@@ -1,0 +1,49 @@
+@import "mixin" ;
+@import "extend";
+
+
+.carousel-inner{
+  
+      .carousel-item {
+        
+        align-items: center;
+        justify-content: center;
+           .imagenes_C1{
+            @include fotosportfolio ;
+            @extend %grilla_galeria ;
+           }
+      }
+   } 
+
+              .grilla-galeria{
+                
+                
+                align-items: center;
+                justify-content: center;
+                    .grid_item{
+                        .foto_carrousel{
+                          @include fotosportfolio ;
+
+                        .grid_itemwide {
+                          @include fotosportfolio ;      
+                              }
+                        }
+                    }
+              } 
+
+
+
+
+
+      .grilla-galeria {
+        @extend %grilla_galeria ;
+      }
+
+
+
+
+
+
+
+
+

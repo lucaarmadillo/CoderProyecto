@@ -1,0 +1,53 @@
+/* bootstrap */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+
+
+
+.container_contacto_formulario {
+  background-color: #0b55bc;
+  text-align: center;
+}
+
+.bi_bi-phone {
+  padding-bottom: 10px;
+}
+
+
+
+.card:hover {
+  transform: translateY(-3%);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.textos_color_formularios {
+  color: #ffffff;
+}
+
+.container_googlemaps {
+  padding-top: 150px;
+}
+
+
+
+/* carrrousel imagenes, index inicio, texto */
+
+.textos_index {
+  text-align: center;
+  padding: auto;
+  color: white;
+  align-items: center;
+}
+
+.cajas_inicio_descripcion {
+  padding: auto ;
+}
+
+
+
+
+
+
+
+

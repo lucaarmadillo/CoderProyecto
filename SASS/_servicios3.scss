@@ -1,0 +1,106 @@
+
+
+/* imagen, TEXTOS SUPERPUESTOS*/
+
+.wrap_nosotros {
+    width: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/DSC_7038.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .wrap_texto_nosotros {
+    color: #fff;
+    width: 50%;
+    font-size: 35pt;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .wrap_servicios {
+    width: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/img/descripcion.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .wrap_texto_servicios {
+    color: #fff;
+    width: 50%;
+    font-size: 35pt;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  
+
+  
+
+
+/* Seccion, servicios*/
+
+
+main {
+
+  .container_servicios {
+    align-items: center;
+    background-color: none;
+    
+
+    .container_servicios {
+      text-align: center;
+      color: whitesmoke;
+
+      .flex-containerservicios {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        padding-left: none;
+        height: auto;
+        background-color: none;
+        text-align: center;
+        color: white;
+        
+
+
+        .flex-items {
+          display: block;
+          align-self: auto;
+          order: 0;
+
+
+          .flex-items {
+            display: block;
+            align-self: auto;
+            order: 0;
+
+
+
+
+
+
+}
+  }
+  }
+  }
+  }
+  }
+
+.container_servicios {
+  color:white ;
+  
+}
+

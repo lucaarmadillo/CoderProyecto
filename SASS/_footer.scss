@@ -1,0 +1,54 @@
+
+
+
+
+
+
+                          div.footer  {
+
+                          
+                            width: 100% ;
+                            margin: 0 ;
+                            padding-top: 15px ;
+                            align-content: center ;
+                          
+                          ul.listas_redes {
+                            display: flex ;
+                            font-size: medium ;
+                            list-style: none ;
+                            padding-left: 10% ;
+                            padding-right: 10% ;
+                            align-items: center ;
+                            justify-content: space-between ;
+                            height: auto ;
+                            align-self: center ;
+                          
+                          .img_redesociales_png {
+                            height: 30px ;
+                            width: 30px ;
+                            box-shadow: 2px 2px 3px #999 ;
+                            border-radius: 50% ;
+                            
+                          
+                            &:hover    {
+                              display: flex ;
+                              filter: opacity(0.9) ;
+                              transform: scale(1.04) ;
+                            }
+                          }
+                        }
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      }
+                      
+  
+
+                        
+                      

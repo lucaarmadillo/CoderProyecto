@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+div.footer {
+  width: 100%;
+  margin: 0;
+  padding-top: 15px;
+  align-content: center;
+}
+div.footer ul.listas_redes {
+  display: flex;
+  font-size: medium;
+  list-style: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  align-self: center;
+}
+div.footer ul.listas_redes .img_redesociales_png {
+  height: 30px;
+  width: 30px;
+  box-shadow: 2px 2px 3px #999;
+  border-radius: 50%;
+}
+div.footer ul.listas_redes .img_redesociales_png:hover {
+  display: flex;
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+
+body {
+  font-family: "Inconsolata", " monospace";
+  background-image: linear-gradient(to right top, #bb8e27, #c36835, #b8474b, #9b3260, #6d2e6c, #553a79, #36437f, #00497e, #005e8c, #007292, #008491, #12968d);
+}
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+  header body nav {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+  }
+  main div.cajas_contenedoras {
+    flex-direction: column;
+  }
+  .wrap_servicios.wrap_texto_servicios h1 {
+    font-size: small;
+  }
+  .wrap_nosotros {
+    display: flex;
+    align-items: center;
+  }
+  .integrante_1 {
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    text-align: center;
+    padding: auto;
+  }
+  p {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  ul li {
+    padding: 1rem;
+  }
+  .wrap_servicios .wrap_texto_servicios {
+    text-align: center;
+  }
+  .img_redesociales_png:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+    transition: all 400ms ease;
+  }
+  main div .video_youtube {
+    display: flex;
+  }
+  main div .imagen_descripcion {
+    width: 100%;
+  }
+  main .title-cards {
+    align-content: center;
+  }
+  .footer .listas_redes .lista_item .img .img_redesociales_png:hover .img_redesociales_png {
+    align-items: center;
+  }
+  .main .container_contacto_formulario .h1 {
+    font-size: medium;
+    flex-wrap: wrap;
+  }
+  .textos_formularios {
+    font-size: medium;
+  }
+  header main .textos_index {
+    font-size: medium;
+    color: white;
+  }
+  .container-fluid {
+    font-size: smaller;
+  }
+}
+main div.video_youtube iframe {
+  width: 100%;
+}
+main div.cajas_inicio_descripcion div.col-lg div.textos_index h1.text_titulo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-shadow: 3px 4px 8px rgba(0, 0, 0, 0.6);
+  font-size: 50px;
+  text-align: center;
+  align-content: center;
+  margin: 0;
+}
+main div.cajas_inicio_descripcion div.col-lg div.textos_index p {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-shadow: 3px 4px 8px rgba(0, 0, 0, 0.6);
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+  align-content: center;
+  margin: 0;
+}
+
+div.col-lg div div.carousel-inner div.carousel-item img.d-block {
+  width: 1200px;
+  height: 600px;
+}
+
+/* imagen, TEXTOS SUPERPUESTOS*/
+div.wrap_nosotros div.wrap_texto_nosotros {
+  color: #fff;
+  width: 50%;
+  font-size: 35pt;
+  font-weight: 200;
+  text-align: center;
+}
+
+.container-card {
+  display: flex;
+  align-content: center;
+}
+
+.title-cards {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card1 {
+  width: 100%;
+  margin: none;
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.513);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+}
+.card1:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+.card1 img {
+  width: 100%;
+  height: 300px;
+}
+.card1 .contenido-card {
+  padding: 15px;
+  text-align: center;
+}
+.card1 .contenido-card h3 {
+  margin-bottom: 15px;
+  color: #7a7a7a;
+}
+.card1 .contenido-card p {
+  line-height: 1.8;
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.card1 .contenido-card a {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
+}
+.card1 .contenido-card a:hover {
+  background: #2fb4cc;
+  color: #fff;
+}
+
+.card1 {
+  margin: none;
+}
+
+/* imagen, TEXTOS SUPERPUESTOS*/
+.wrap_nosotros {
+  width: auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/DSC_7038.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.wrap_texto_nosotros {
+  color: #fff;
+  width: 50%;
+  font-size: 35pt;
+  font-weight: 200;
+  text-align: center;
+}
+
+.wrap_servicios {
+  width: auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/descripcion.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.wrap_texto_servicios {
+  color: #fff;
+  width: 50%;
+  font-size: 35pt;
+  font-weight: 200;
+  text-align: center;
+}
+
+/* Seccion, servicios*/
+main .container_servicios {
+  align-items: center;
+  background-color: none;
+}
+main .container_servicios .container_servicios {
+  text-align: center;
+  color: whitesmoke;
+}
+main .container_servicios .container_servicios .flex-containerservicios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding-left: none;
+  height: auto;
+  background-color: none;
+  text-align: center;
+  color: white;
+}
+main .container_servicios .container_servicios .flex-containerservicios .flex-items {
+  display: block;
+  align-self: auto;
+  order: 0;
+}
+main .container_servicios .container_servicios .flex-containerservicios .flex-items .flex-items {
+  display: block;
+  align-self: auto;
+  order: 0;
+}
+
+.container_servicios {
+  color: white;
+}
+
+.main .div.grilla-galeria .div.grid_item .img.fotos_carrousel {
+  width: 100%;
+  height: 70%;
+  padding: 50px 10 10 50px;
+}
+.main .div.grilla-galeria .div.grid_item .img.fotos_carrousel:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+  transition: all 500ms ease-out;
+}
+
+.grilla-galeria, .carousel-inner .carousel-item .imagenes_C1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(auto-till, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+}
+
+.carousel-inner .carousel-item {
+  align-items: center;
+  justify-content: center;
+}
+.carousel-inner .carousel-item .imagenes_C1 {
+  width: 100%;
+  height: 70%;
+  padding: 50px 10 10 50px;
+}
+.carousel-inner .carousel-item .imagenes_C1:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+  transition: all 500ms ease-out;
+}
+
+.grilla-galeria {
+  align-items: center;
+  justify-content: center;
+}
+.grilla-galeria .grid_item .foto_carrousel {
+  width: 100%;
+  height: 70%;
+  padding: 50px 10 10 50px;
+}
+.grilla-galeria .grid_item .foto_carrousel:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+  transition: all 500ms ease-out;
+}
+.grilla-galeria .grid_item .foto_carrousel .grid_itemwide {
+  width: 100%;
+  height: 70%;
+  padding: 50px 10 10 50px;
+}
+.grilla-galeria .grid_item .foto_carrousel .grid_itemwide:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+  transition: all 500ms ease-out;
+}
+
+/* imagen, TEXTOS SUPERPUESTOS*/
+.wrap_nosotros {
+  width: auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/DSC_7038.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.wrap_texto_nosotros {
+  color: #fff;
+  width: 50%;
+  font-size: 35pt;
+  font-weight: 200;
+  text-align: center;
+}
+
+.wrap_servicios {
+  width: auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/DSC_7038.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.wrap_texto_servicios {
+  color: #fff;
+  width: 50%;
+  font-size: 35pt;
+  font-weight: 200;
+  text-align: center;
+}
+
+.main .container_contacto_formulario .listacontactos {
+  align-items: center;
+  align-content: center;
+  padding-bottom: 10 10 10 10;
+}
+.main .container_contacto_formulario .textos_formularios {
+  font-size: 30px;
+}
+
+/* bootstrap */
+.container_contacto_formulario {
+  background-color: #0b55bc;
+  text-align: center;
+}
+
+.bi_bi-phone {
+  padding-bottom: 10px;
+}
+
+.card:hover {
+  transform: translateY(-3%);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.textos_color_formularios {
+  color: #ffffff;
+}
+
+.container_googlemaps {
+  padding-top: 150px;
+}
+
+/* carrrousel imagenes, index inicio, texto */
+.textos_index {
+  text-align: center;
+  padding: auto;
+  color: white;
+  align-items: center;
+}
+
+.cajas_inicio_descripcion {
+  padding: auto;
+}
+
+.main .div.grilla-galeria .div.grid_item .img.fotos_carrousel {
+  width: 100%;
+  height: 70%;
+  padding: 50px 10 10 50px;
+}
+.main .div.grilla-galeria .div.grid_item .img.fotos_carrousel:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+  transition: all 500ms ease-out;
+}
+
+.carousel-inner .carousel-item .imagenes_C1, .grilla-galeria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(auto-till, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+}
+
+.img-fluid {
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.container-fluid {
+  background-color: rgba(255, 255, 255, 0.432);
+  font-size: 40px;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */

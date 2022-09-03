@@ -1,0 +1,110 @@
+
+
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+    header body nav {
+      width: fit-content;
+      height: fit-content;
+      display: flex;
+    }
+  
+    main div.cajas_contenedoras {
+      flex-direction: column;
+    }
+  
+    .wrap_servicios.wrap_texto_servicios h1 {
+      font-size: small;
+    }
+  
+    .wrap_nosotros {
+      display: flex;
+      align-items: center;
+    }
+  
+    
+  
+    .integrante_1 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    
+  
+    h2 {
+      text-align: center;
+      padding: auto;
+    }
+  
+    p {
+      padding: 1rem 1rem 1rem 1rem;
+    }
+  
+    ul li {
+      padding: 1rem;
+    }
+  
+    .wrap_servicios .wrap_texto_servicios {
+      text-align: center;
+    }
+  
+    .img_redesociales_png:hover {
+      filter: opacity(0.9);
+      transform: scale(1.04);
+      transition: all 400ms ease;
+    }
+  
+    main div .video_youtube {
+      display: flex;
+    }
+  
+    main div .imagen_descripcion {
+      width: 100%;
+    }
+    
+    
+  
+    main .title-cards {
+      align-content: center;
+    }
+  
+    .footer
+      .listas_redes
+      .lista_item
+      .img
+      .img_redesociales_png:hover
+      .img_redesociales_png {
+      align-items: center;
+    }
+  
+    .main .container_contacto_formulario .h1 {
+      font-size: medium;
+      flex-wrap: wrap;
+    }
+  
+    .textos_formularios {
+      font-size: medium;
+    }
+  
+    header main .textos_index {
+      font-size: medium;
+      color: white;
+    }
+  
+    .container-fluid {
+      font-size: smaller;
+    }
+
+
+
+
+
+
+  }
+
+
+
+ 
