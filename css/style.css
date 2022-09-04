@@ -285,6 +285,22 @@ main .container_servicios .container_servicios .flex-containerservicios .flex-it
   color: white;
 }
 
+.container h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: 400;
+}
+.container p {
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+}
+.container li {
+  color: white;
+  font-size: 20px;
+}
+
 .main .div.grilla-galeria .div.grid_item .img.fotos_carrousel {
   width: 100%;
   height: 70%;
